@@ -524,4 +524,7 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
+    <!-- Device repos -->
+    <project path="vendor/xiaomi/ido" name="WinKarbik/android_vendor_xiaomi_ido" revision="cm-13.0" />
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
 </manifest>
