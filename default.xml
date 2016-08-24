@@ -525,6 +525,11 @@
 <!-- END AOSP -->
 
     <!-- Device repos -->
+    <project path="device/xiaomi/ido" name="WinKarbik/android_device_xiaomi_ido" revision="cm-13.0" />
+    <project path="device/cyanogen/msm8916-common" name="CyanogenMod/android_device_cyanogen_msm8916-common" revision="cm-13.0" />
     <project path="vendor/xiaomi/ido" name="WinKarbik/android_vendor_xiaomi_ido" revision="cm-13.0" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" />
+    <!-- Other -->
+    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" />
+    <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0" />
 </manifest>
